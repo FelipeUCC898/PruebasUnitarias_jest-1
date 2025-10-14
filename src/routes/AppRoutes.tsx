@@ -15,7 +15,7 @@ import ContadorClics from "../views/ContadorClics";
 import ListaTareas from "../views/ListaTareas";
 import RandomView from "../views/RandomView";
 import RegisterFormView from "../views/RegisterFormView";
-
+import ShoppingCartView from "../views/ShoppingCartView";
 
 export default function AppRoutes() {
   return (
@@ -34,7 +34,8 @@ export default function AppRoutes() {
         <Route path="listareas" element={<ListaTareas />} />
         <Route path="random" element={<RandomView />} />
         <Route path="register" element={<RegisterFormView />} />
-        
+        <Route path="cart" element={<ShoppingCartView />} />
+
 
       </Route>
     </Routes>

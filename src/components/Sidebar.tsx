@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { FaHome, FaCube, FaColumns, FaMicrophone, FaShapes, FaCalculator, FaRuler, FaKey, FaMouse, FaList } from "react-icons/fa";
 import {FaDice} from "react-icons/fa";
 import { FaUserPlus } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa"; 
 
 interface SidebarItem {
   label: string;
@@ -27,6 +28,7 @@ const exerciseItems: SidebarItem[] = [
   { label: "Lista de Tareas", route: "/listareas", icon: <FaList /> },
   { label: "Numeros random", route: "/random", icon: <FaDice /> },
   { label: "Registro", route: "/register", icon: <FaUserPlus  /> },
+  { label: "Carrito de compras", route: "/cart", icon: <FaShoppingCart  /> },
 
 ];
 
