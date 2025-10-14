@@ -4,6 +4,7 @@ import { FaHome, FaCube, FaColumns, FaMicrophone, FaShapes, FaCalculator, FaRule
 import {FaDice} from "react-icons/fa";
 import { FaUserPlus } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa"; 
+import {FaPoll} from "react-icons/fa";
 
 interface SidebarItem {
   label: string;
@@ -29,6 +30,7 @@ const exerciseItems: SidebarItem[] = [
   { label: "Numeros random", route: "/random", icon: <FaDice /> },
   { label: "Registro", route: "/register", icon: <FaUserPlus  /> },
   { label: "Carrito de compras", route: "/cart", icon: <FaShoppingCart  /> },
+  { label: "Encuesta", route: "/survey", icon: <FaPoll /> },
 
 ];
 
