@@ -14,6 +14,7 @@ import ValidContrasena from "../views/ValidContrasena";
 import ContadorClics from "../views/ContadorClics";
 import ListaTareas from "../views/ListaTareas";
 import RandomView from "../views/RandomView";
+import RegisterFormView from "../views/RegisterFormView";
 
 
 export default function AppRoutes() {
@@ -32,6 +33,8 @@ export default function AppRoutes() {
         <Route path="contadorclics" element={<ContadorClics />} />
         <Route path="listareas" element={<ListaTareas />} />
         <Route path="random" element={<RandomView />} />
+        <Route path="register" element={<RegisterFormView />} />
+        
 
       </Route>
     </Routes>
