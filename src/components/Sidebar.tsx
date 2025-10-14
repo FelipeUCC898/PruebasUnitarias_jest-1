@@ -2,9 +2,6 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaHome, FaCube, FaColumns, FaMicrophone, FaShapes, FaCalculator, FaRuler, FaKey, FaMouse, FaList } from "react-icons/fa";
 import {FaDice} from "react-icons/fa";
-import {FaPoll} from "react-icons/fa";
-import { FaShoppingCart } from "react-icons/fa"; 
-import { FaUserPlus } from "react-icons/fa";
 
 interface SidebarItem {
   label: string;
