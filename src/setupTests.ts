@@ -1,4 +1,4 @@
-// Este archivo extiende el entorno de prueba de Jest.
+// Este archivo extiende el entorno de prueba de Jest...
 
 import "@testing-library/jest-dom";
 import { TextEncoder, TextDecoder } from "util";
